@@ -1,0 +1,4 @@
+Please add the following images to this folder:
+- profile.jpg: Your professional photo (recommended size 600x600px)
+
+The website is now ready to use. You can also add research project images if available.
