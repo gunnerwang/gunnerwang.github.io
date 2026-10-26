@@ -27,7 +27,6 @@ img { max-width: 100%; height: auto; display: block; }
 .desktop-nav { display: flex; align-items: center; gap: 28px; font-size: 14px; }
 .desktop-nav a { color: var(--muted); text-decoration: none; }
 .desktop-nav a:hover, .desktop-nav a[aria-current] { color: var(--accent); }
-.desktop-nav .nav-cv { color: var(--accent); border-left: 1px solid var(--line); padding-left: 24px; }
 .mobile-nav { display: none; }
 .eyebrow { color: var(--accent); font-size: 11px; line-height: 1.5; font-weight: 650; letter-spacing: .11em; text-transform: uppercase; }
 .hero { padding: 76px 0 54px; display: grid; grid-template-columns: minmax(0, 1fr) 240px; gap: 88px; align-items: center; }

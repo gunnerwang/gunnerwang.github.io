@@ -15,3 +15,6 @@ Thumbs.db
 *~
 # Local browser review artifacts
 /output/
+
+# Keep the personal CV out of the public website
+/CV_Tianyu_Wang.pdf
