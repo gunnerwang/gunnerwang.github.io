@@ -1,488 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tianyu Wang - Postdoctoral Researcher at KTH</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="Tianyu Wang is a postdoctoral researcher at KTH working on industrial AI, LLM agents, physical AI, and human–robot collaboration.">
+  <title>Tianyu Wang · Industrial AI & Human–Robot Collaboration</title>
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="module" src="js/main.js"></script>
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-brand">Tianyu Wang</div>
-            <div class="nav-menu" id="navMenu">
-                <a href="#home" class="nav-link">Home</a>
-                <a href="#about" class="nav-link">About</a>
-                <a href="#experience" class="nav-link">Experience</a>
-                <a href="#research" class="nav-link">Research</a>
-                <a href="#publications" class="nav-link">Publications</a>
-                <a href="#contact" class="nav-link">Contact</a>
-            </div>
-            <div class="nav-toggle" id="navToggle">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-    </nav>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header"><div class="container header-inner">
+  <a class="identity" href="index.html" aria-label="Tianyu Wang, home"><span class="monogram" aria-hidden="true">tw.</span><span>Tianyu Wang</span></a>
+  <nav class="desktop-nav" aria-label="Main navigation"><a href="#research">Research</a><a href="publications.html">Publications</a><a href="#experience">Background</a><a href="#contact">Contact</a><a class="nav-cv" href="CV_Tianyu_Wang.pdf">CV <span aria-hidden="true">↗</span></a></nav>
+  <details class="mobile-nav"><summary>Menu <span aria-hidden="true">＋</span></summary><nav aria-label="Mobile navigation"><a href="#research">Research</a><a href="publications.html">Publications</a><a href="#experience">Background</a><a href="#contact">Contact</a><a href="CV_Tianyu_Wang.pdf">Download CV ↗</a></nav></details>
+</div></header>
 
-    <!-- Home Section -->
-    <section id="home" class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <div class="hero-text">
-                    <h1 class="hero-title">Tianyu Wang, Ph.D.</h1>
-                    <p class="hero-subtitle">Postdoctoral Researcher at KTH Royal Institute of Technology</p>
-                    <div class="hero-description">
-                        <p>I develop AI for manufacturing and human–robot collaboration, with a focus on LLM agents, world models, and physical AI for adaptive industrial robots.</p>
-                    </div>
-                    <div class="hero-buttons">
-                        <a href="#contact" class="btn btn-primary">Get in Touch</a>
-                        <a href="#research" class="btn btn-secondary">View Research</a>
-                        <a href="CV_Tianyu_Wang.pdf" class="btn btn-secondary" download>Download CV</a>
-                    </div>
-                    <div class="social-links">
-                        <a href="mailto:tianyuwa@kth.se"><i class="fas fa-envelope"></i></a>
-                        <a href="https://www.linkedin.com/in/tianyu-wang-195a8b189" target="_blank"><i class="fab fa-linkedin"></i></a>
-                        <a href="https://scholar.google.com/citations?user=_Cn0QFAAAAAJ" target="_blank"><i class="fab fa-google"></i></a>
-                        <a href="https://github.com/gunnerwang" target="_blank"><i class="fab fa-github"></i></a>
-                    </div>
-                </div>
-                <div class="hero-image">
-                    <img src="images/profile.jpg" alt="Tianyu Wang" class="profile-img">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <p>I am a Postdoctoral Researcher in the Department of Production Engineering at KTH Royal Institute of Technology, working with Prof. Xi Vincent Wang and Prof. Lihui Wang. I received my Zhi Yuan Honorary Ph.D. in Control Science and Engineering from Shanghai Jiao Tong University in 2025 and was a Visiting Scholar at KTH from 2023 to 2024.</p>
-                    <p>My research spans LLM agents for manufacturing system design and governance, world models for human anticipation and adaptive collaboration, and physical AI for closed-loop robot control. I also study robust industrial tabular learning under temporal shift and human-centric digital twins for Industry 5.0.</p>
-                    <div class="education-timeline">
-                        <h3>Education</h3>
-                        <div class="timeline-item">
-                            <div class="timeline-date">2020 - 2025</div>
-                            <div class="timeline-content">
-                                <h4>Ph.D. in Control Science and Engineering</h4>
-                                <p>Shanghai Jiao Tong University (Zhi Yuan Honorary Program)</p>
-                                <p class="highlight">GPA: 3.75/4.0</p>
-                            </div>
-                        </div>
-                        <div class="timeline-item">
-                            <div class="timeline-date">2023 - 2024</div>
-                            <div class="timeline-content">
-                                <h4>Visiting Scholar</h4>
-                                <p>KTH Royal Institute of Technology, Sweden</p>
-                                <p class="highlight">Supervisor: Prof. Lihui Wang</p>
-                            </div>
-                        </div>
-                        <div class="timeline-item">
-                            <div class="timeline-date">2016 - 2020</div>
-                            <div class="timeline-content">
-                                <h4>Bachelor in Electrical and Computer Engineering</h4>
-                                <p>Shanghai Jiao Tong University</p>
-                                <p class="highlight">GPA: 3.65/4.0</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="skills-section">
-                    <h3>Technical Skills</h3>
-                    <div class="skills-grid">
-                        <div class="skill-category">
-                            <h4>Programming</h4>
-                            <div class="skill-tags">
-                                <span class="skill-tag">Python</span>
-                                <span class="skill-tag">MATLAB</span>
-                                <span class="skill-tag">C/C++</span>
-                                <span class="skill-tag">Java</span>
-                                <span class="skill-tag">JavaScript</span>
-                            </div>
-                        </div>
-                        <div class="skill-category">
-                            <h4>AI/ML Frameworks</h4>
-                            <div class="skill-tags">
-                                <span class="skill-tag">PyTorch</span>
-                                <span class="skill-tag">TensorFlow</span>
-                                <span class="skill-tag">Keras</span>
-                                <span class="skill-tag">Ollama</span>
-                                <span class="skill-tag">RAGFlow</span>
-                            </div>
-                        </div>
-                        <div class="skill-category">
-                            <h4>Robotics & Systems</h4>
-                            <div class="skill-tags">
-                                <span class="skill-tag">ROS2</span>
-                                <span class="skill-tag">Unity</span>
-                                <span class="skill-tag">RobotStudio</span>
-                                <span class="skill-tag">Digital Twin</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Experience Section -->
-    <section id="experience" class="experience">
-        <div class="container">
-            <h2 class="section-title">Work Experience</h2>
-            <div class="experience-timeline">
-                <div class="experience-item">
-                    <div class="experience-date">November 2025 - Present</div>
-                    <div class="experience-content">
-                        <h3>Postdoctoral Researcher on AI-Empowered Manufacturing and Human-Robot Collaboration</h3>
-                        <h4>KTH Royal Institute of Technology, Stockholm, Sweden</h4>
-                        <p>Department of Production Engineering, Production Systems &amp; Automation Division<br>Supervisors: Prof. Xi Vincent Wang and Prof. Lihui Wang</p>
-                        <ul>
-                            <li>Develop LLM agents and agentic AI for autonomous manufacturing system design, reconfiguration, and governance</li>
-                            <li>Study world models for long-horizon human anticipation, operator-aware personalization, and safety-aware symbolic robot policies</li>
-                            <li>Integrate foundation models, dynamical decoders, and digital twins for robust closed-loop perception, planning, and robot control</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="experience-item">
-                    <div class="experience-date">2023 - 2024</div>
-                    <div class="experience-content">
-                        <h3>Researcher on Human-Robot Collaboration towards Industry 5.0</h3>
-                        <h4>KTH Royal Institute of Technology, Stockholm, Sweden</h4>
-                        <ul>
-                            <li>Developed vision-based human mesh recovery, human action recognition and human intention prediction with foundation models and multimodal data fusion</li>
-                            <li>Created high-fidelity digital twin of shared workspace including multiple humans and industrial robots, as well as human-aware robot learning and control</li>
-                            <li>Collaborated with industry partners on EU project of HRC assembly with pilot cases</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="experience-item">
-                    <div class="experience-date">September 2020 - October 2025</div>
-                    <div class="experience-content">
-                        <h3>Researcher on Intelligent Manufacturing in Industry 4.0</h3>
-                        <h4>Shanghai Jiao Tong University, Shanghai, China</h4>
-                        <ul>
-                            <li>Developed novel deep learning and continual learning-based methods for adaptive system identification and highly generalizable product quality prediction under concept drift</li>
-                            <li>Implemented human-inspired methods and large language models for effective knowledge consolidation among different operating conditions and production lines</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="experience-item">
-                    <div class="experience-date">2018 - 2021</div>
-                    <div class="experience-content">
-                        <h3>Researcher on Vision-Based Action Quality Assessment</h3>
-                        <h4>Shanghai Jiao Tong University, Shanghai, China</h4>
-                        <ul>
-                            <li>Developed deep learning algorithms for RGB video and kinematics-based real-time assessment of complex human body and hand actions</li>
-                            <li>Collaborated with top hospitals on surgical skill assessment systems for VR training</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Research Section -->
-    <section id="research" class="research">
-        <div class="container">
-            <h2 class="section-title">Selected Research Projects</h2>
-            <div class="research-grid">
-                <div class="research-card">
-                    <div class="research-header">
-                        <h3>Robustness-by-Design World Model for Human-Robot Co-Assembly</h3>
-                        <span class="research-date">November 2025 - Present</span>
-                    </div>
-                    <p>Developing a hybrid latent-structured world model for long-horizon human anticipation from multi-view RGB and skeletons, coupled with a symbolic robot policy and an operator-aware personalization layer.</p>
-                    <div class="research-tags"><span>World Models</span><span>Human–Robot Collaboration</span><span>Physical AI</span></div>
-                </div>
-                <div class="research-card">
-                    <div class="research-header">
-                        <h3>Contract-Based Production Autonomy for LLM-Driven Intent-Based Manufacturing</h3>
-                        <span class="research-date">November 2025 - April 2026</span>
-                    </div>
-                    <p>Proposed a five-layer governance framework in which bounded LLM agents operate within verifiable safety and well-being constraints. Validated the framework in an Isaac Sim digital twin with BaSyx and OPC-UA interfaces.</p>
-                    <div class="research-tags"><span>LLM Agents</span><span>Manufacturing Governance</span><span>Digital Twin</span></div>
-                </div>
-                <div class="research-card">
-                    <div class="research-header">
-                        <h3>LLM Agents-Driven Layout Generation for Reconfigurable Manufacturing Systems</h3>
-                        <span class="research-date">October 2025 - April 2026</span>
-                    </div>
-                    <p>Developed a multi-agent LLM workflow that turns natural-language production requirements and 3D machine models into geometry-feasible layouts, with Unity3D visualization and downstream optimization. Published in CIRP Annals (2026).</p>
-                    <div class="research-tags"><span>LLM Agents</span><span>Manufacturing Systems</span><span>Reconfiguration</span></div>
-                </div>
-                <div class="research-card">
-                    <div class="research-header">
-                        <h3>Ghost Attractor Networks: Basin-Structured Dynamical Decoders for Closed-Loop Sequential Generation</h3>
-                        <span class="research-date">January 2026 - Present</span>
-                    </div>
-                    <p>Developing a dynamical decoder with learned potential-drift dynamics and a basin-attractor structure for multimodal, constant-memory closed-loop generation. Preprint: arXiv:2606.18315.</p>
-                    <div class="research-tags"><span>Dynamical Systems</span><span>Robot Control</span><span>Physical AI</span></div>
-                </div>
-                <div class="research-card">
-                    <div class="research-header">
-                        <h3>GenAI-Augmented Industrial Robots for Sustainable Manufacturing</h3>
-                        <span class="research-date">June 2025 - March 2026</span>
-                    </div>
-                    <p>Developed a universal framework integrating ROS2, large language models, and vision foundation models for programming-free robot control from natural-language commands and environmental images. Validated on two ABB industrial robots; published in Engineering (2026).</p>
-                    <div class="research-tags">
-                        <span>Robotics</span>
-                        <span>LLM</span>
-                        <span>Computer Vision</span>
-                    </div>
-                </div>
-                <div class="research-card">
-                    <div class="research-header">
-                        <h3>Cross-Domain Multimodal Language Model for Industrial Soft Sensors</h3>
-                        <span class="research-date">2024 - 2025</span>
-                    </div>
-                    <p>Created a specialized encoder-decoder LM with self-attention-based fusion for predictive soft sensing. Integrated domain-specific pre-training, low-rank fine-tuning, and gradient-free test-time adaptation.</p>
-                    <div class="research-tags">
-                        <span>Deep Learning</span>
-                        <span>Industrial AI</span>
-                        <span>Soft Sensing</span>
-                    </div>
-                </div>
-                <div class="research-card">
-                    <div class="research-header">
-                        <h3>Human-Centric Digital Twin for Industry 5.0 Work Cells</h3>
-                        <span class="research-date">2023 - 2024</span>
-                    </div>
-                    <p>Proposed a systematic framework for rapid construction of human-centric digital twin systems in human-robot collaborative environments. Generated customized mesh-based human models from short motion videos within one minute.</p>
-                    <div class="research-tags">
-                        <span>Digital Twin</span>
-                        <span>HRC</span>
-                        <span>3D Reconstruction</span>
-                    </div>
-                </div>
-                <div class="research-card">
-                    <div class="research-header">
-                        <h3>Brain-Inspired Product Quality Prediction under Variations</h3>
-                        <span class="research-date">2024</span>
-                    </div>
-                    <p>Developed a dual-branch modeling method inspired by neuroscience theory of complementary learning systems. Achieved SOTA performance on three real-world manufacturing processes with over 15,000 data records.</p>
-                    <div class="research-tags">
-                        <span>Neuroscience</span>
-                        <span>Manufacturing</span>
-                        <span>ML</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Publications Section -->
-    <section id="publications" class="publications">
-        <div class="container">
-            <h2 class="section-title">Publications</h2>
-            <div class="publication-stats">
-                <div class="stat-item"><h3>25</h3><p>Journal Articles</p></div>
-                <div class="stat-item"><h3>7</h3><p>Conference Papers</p></div>
-                <div class="stat-item"><h3>1</h3><p>Book Chapter</p></div>
-                <div class="stat-item"><h3>5</h3><p>Preprints &amp; Working Papers</p></div>
-            </div>
-            <p class="publication-note">Journal articles are listed by their assigned issue year, including 2027 issues. Preprints and working papers are listed separately. See <a href="https://scholar.google.com/citations?user=_Cn0QFAAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a> for citation updates, or <a href="CV_Tianyu_Wang.pdf">download my CV</a>.</p>
-            <div class="publication-list">
-                <h3>Journal Articles</h3>
-                <ol class="publication-items">
-                    <li data-publication="yuan2027prior">
-                        J. Yuan, <strong>T. Wang</strong>, X. V. Wang, L. Wang, J. Gao, M. Chiachío, C. Sbarufatti, and T. Li, “<a href="https://doi.org/10.1016/j.aei.2026.105224" target="_blank" rel="noopener noreferrer">Prior information-aided severity-graded fatigue delamination prognostics in composites</a>.” <em>Advanced Engineering Informatics (AEI)</em>, vol. 77, article 105224, 2027.
-                    </li>
-                    <li data-publication="wang2027bayesian">
-                        <strong>T. Wang</strong>, S. Lu, T. Li, C. Cao, M. Li, Y. Huang, X. V. Wang, and L. Wang, “<a href="https://doi.org/10.1016/j.aei.2026.105185" target="_blank" rel="noopener noreferrer">A Bayesian refinement method incorporating geometric prior and LLM-guided hyperprior for measurement-grade overhang analysis in X-ray electrode inspection</a>.” <em>Advanced Engineering Informatics (AEI)</em>, vol. 77, article 105185, 2027.
-                    </li>
-                    <li data-publication="chen2026occlusion">
-                        Z. Chen, L. Peng, <strong>T. Wang</strong>, C. Zeng, Y. Pan, and J.-B. Wang, “<a href="https://doi.org/10.1016/j.patcog.2026.114155" target="_blank" rel="noopener noreferrer">Occlusion-aware visual object tracking with explicit temporal state modeling and dual-memory mechanism</a>.” <em>Pattern Recognition</em>, vol. 180, article 114155, 2026.
-                    </li>
-                    <li data-publication="wang2026soft">
-                        <strong>T. Wang</strong>, M. Zhang, J. Qu, Z. Liu, M. Li, and X. V. Wang, “<a href="https://doi.org/10.1016/j.engappai.2026.115061" target="_blank" rel="noopener noreferrer">Multimodal knowledge-enhanced language model with online test-time adaptation for cross-domain industrial tabular prediction</a>.” <em>Engineering Applications of Artificial Intelligence (EAAI)</em>, vol. 178, article 115061, 2026.
-                    </li>
-                    <li data-publication="wang2026tabular">
-                        <strong>T. Wang</strong>, M. Zhang, M. Lu, and M. Li, “<a href="https://doi.org/10.1016/j.neunet.2026.108670" target="_blank" rel="noopener noreferrer">Multi-timescale representation with adaptive routing for deep tabular learning under temporal shift</a>.” <em>Neural Networks</em>, vol. 199, article 108670, 2026.
-                    </li>
-                    <li data-publication="wang2026cirp">
-                        <strong>T. Wang</strong>, Z. Liu, X. V. Wang, and L. Wang, “<a href="https://doi.org/10.1016/j.cirp.2026.03.015" target="_blank" rel="noopener noreferrer">LLM agents-driven layout generation for reconfigurable manufacturing systems</a>.” <em>CIRP Annals - Manufacturing Technology</em>, vol. 75, no. 1, pp. 577–581, 2026.
-                    </li>
-                    <li data-publication="grahn2026integration">
-                        S. Grahn, <strong>T. Wang</strong>, X. V. Wang, and L. Wang, “<a href="https://www.sciltp.com/journals/hmi/articles/2608004893" target="_blank" rel="noopener noreferrer">From Human–Machine Interaction to Integration: A Review of Paradigms, Principles, and Prospects for a Human-Centric Future</a>.” <em>Human-Machine Interaction</em>, vol. 1, no. 1, 2026. <span class="highlight">Corresponding Author.</span>
-                    </li>
-                    <li data-publication="qu2026diagnosing">
-                        J. Qu, J. Shen, W. Li, <strong>T. Wang</strong>, Y. Wang, R. Zheng, M. Li, and Z. Wang, “<a href="https://doi.org/10.1016/j.apenergy.2025.127203" target="_blank" rel="noopener noreferrer">Diagnosing inconsistencies in battery energy storage systems: A framework integrating electrical, thermal, and aging perspectives</a>.” <em>Applied Energy</em>, vol. 405, article 127203, 2026.
-                    </li>
-                    <li data-publication="liu2026brain">
-                        Z. Liu, <strong>T. Wang</strong>, R. Zhong, X. V. Wang, M. Li, and L. Wang, “<a href="https://doi.org/10.1016/j.eng.2026.05.020" target="_blank" rel="noopener noreferrer">Brain-Inspired Generative AI Revives Legacy Industrial Robots Toward Sustainable Automation</a>.” <em>Engineering</em>, 2026.
-                    </li>
-                    <li data-publication="cao2026segment">
-                        C. Cao, <strong>T. Wang</strong>, S. Lu, M. Li, Y. Huang, X. V. Wang, and L. Wang, “<a href="https://doi.org/10.1016/j.patcog.2026.114087" target="_blank" rel="noopener noreferrer">A Segment Anything Model adaptation framework for battery visual inspection under complex radiographic imaging conditions</a>.” <em>Pattern Recognition</em>, vol. 180, article 114087, 2026.
-                    </li>
-                    <li data-publication="liu2025sdata">
-                        Z. Liu, <strong>T. Wang</strong>, Z. Ji, W. Xu, L. Wang, and X. V. Wang, “Sequential human assembly and disassembly motions in human-robot coexisting environments.” <em>Scientific Data</em>, vol. 12, no. 1, p. 1769, 2025.
-                    </li>
-                    <li data-publication="li2025likelihood">
-                        T. Li, R. Zhong, <strong>T. Wang</strong>, J. Kronqvist, M. Romero, M. Xiao, and X. V. Wang, “<a href="https://doi.org/10.1016/j.ymssp.2025.113595" target="_blank" rel="noopener noreferrer">Designing likelihood function under nuisance components in block particle filter</a>.” <em>Mechanical Systems and Signal Processing</em>, vol. 241, article 113595, 2025.
-                    </li>
-                    <li data-publication="wang2024deep">
-                        <strong>T. Wang</strong>, R. Zheng, M. Li, C. Cai, S. Zhu, and Y. Lou, “Deep learning based self-adaptive modeling of multimode continuous manufacturing processes and its application to rotary drying process.” <em>Journal of Intelligent Manufacturing (JIMS)</em>, vol. 36, no. 6, pp. 3887–3922, 2025.
-                    </li>
-                    <li data-publication="zhuang2025milp">
-                        C. Zhuang, J. Qu, <strong>T. Wang</strong>, L. Lin, Y. Bi, and M. Li, “<a href="https://doi.org/10.3390/machines13060519" target="_blank" rel="noopener noreferrer">Comprehensive MILP Formulation and Solution for Simultaneous Scheduling of Machines and AGVs in a Partitioned Flexible Manufacturing System</a>.” <em>Machines</em>, vol. 13, no. 6, p. 519, 2025.
-                    </li>
-                    <li data-publication="QU2025236928">
-                        J. Qu, <strong>T. Wang</strong>, Y. Wang, X. Li, M. Li, and R. Zheng, “An improved co-training architecture for Lithium-ion batteries state of health estimation with semi-supervised learning.” <em>Journal of Power Sources (JPS)</em>, vol. 643, article 236928, 2025.
-                    </li>
-                    <li data-publication="qi2025memetic">
-                        F. Qi, <strong>T. Wang</strong>, R. Zheng, and M. Li, “<a href="https://doi.org/10.3390/app15158735" target="_blank" rel="noopener noreferrer">A memetic and reflective evolution framework for automatic heuristic design using large language models</a>.” <em>Applied Sciences</em>, vol. 15, no. 15, p. 8735, 2025.
-                    </li>
-                    <li data-publication="wang2024neuro">
-                        <strong>T. Wang</strong>, Z. Hu, Y. Wang, M. Li, Z. Liu, and X. V. Wang, “A human-inspired slow-fast dual-branch method for product quality prediction of complex manufacturing processes with hierarchical variations.” <em>Advanced Engineering Informatics (AEI)</em>, vol. 64, article 102967, 2025.
-                    </li>
-                    <li data-publication="wang2025jms">
-                        <strong>T. Wang</strong>, Z. Liu, L. Wang, M. Li, and X. V. Wang, “A Design Framework for High-Fidelity Human-Centric Digital Twin of Collaborative Work Cell in Industry 5.0.” <em>Journal of Manufacturing Systems (JMS)</em>, vol. 80, pp. 140–156, 2025.
-                    </li>
-                    <li data-publication="wang2024data">
-                        <strong>T. Wang</strong>, Z. Liu, L. Wang, M. Li, and X. V. Wang, “Data-efficient multimodal human action recognition for proactive human–robot collaborative assembly: A cross-domain few-shot learning approach.” <em>Robotics and Computer-Integrated Manufacturing (RCIM)</em>, vol. 89, article 102785, 2024.
-                    </li>
-                    <li data-publication="wang2023towards">
-                        <strong>T. Wang</strong>, M. Li, R. Zheng, C. Cai, Y. Lou, and S. Zhu, “Towards continual knowledge transfer in modeling manufacturing processes under non-stationary data streams.” <em>Applied Intelligence</em>, vol. 53, no. 23, pp. 29393–29413, 2023.
-                    </li>
-                    <li data-publication="gao2023adaptive">
-                        Y. Gao, <strong>T. Wang</strong>, X. Zhou, M. Li, C. Zhang, P. Qin, Y. Yang, and L. Zhang, “An adaptive optimization method toward batch-wise variable set point of outlet moisture content for the tobacco drying process.” <em>Drying Technology</em>, vol. 41, no. 13, pp. 2156–2170, 2023.
-                    </li>
-                    <li data-publication="wang2022adaptive">
-                        <strong>T. Wang</strong>, C. Cai, Y. Gao, M. Li, Y. Lou, and B. Kong, “Adaptive online learning for system identification and in-advance optimization under long feedback delay and concept drift in cigarette production.” <em>Drying Technology</em>, vol. 40, no. 15, pp. 3340–3356, 2022.
-                    </li>
-                    <li data-publication="wang2021towards">
-                        <strong>T. Wang</strong>, M. Jin, and M. Li, “Towards accurate and interpretable surgical skill assessment: a video-based method for skill score prediction and guiding feedback generation.” <em>International Journal of Computer Assisted Radiology and Surgery (IJCARS)</em>, vol. 16, no. 9, pp. 1595–1605, 2021.
-                    </li>
-                    <li data-publication="ding2021establishing">
-                        M. Ding, <strong>T. Wang</strong>, and X. Wang, “Establishing smartphone user behavior model based on energy consumption data.” <em>ACM Transactions on Knowledge Discovery from Data (TKDD)</em>, vol. 16, no. 2, pp. 1–40, 2021.
-                    </li>
-                    <li data-publication="wang2020security">
-                        M. Wang, Y. Wang, <strong>T. Wang</strong>, L. Hou, and M. Li, “<a href="https://doi.org/10.1007/s12204-020-2231-y" target="_blank" rel="noopener noreferrer">New approach for information security evaluation and management of IT systems in educational institutions</a>.” <em>Journal of Shanghai Jiaotong University (Science)</em>, vol. 25, no. 6, pp. 689–699, 2020.
-                    </li>
-                </ol>
-                <h3>Conference Proceedings</h3>
-                <ol class="publication-items">
-                    <li data-publication="liu2025synchronisation">
-                        Z. Liu, S. Liu, <strong>T. Wang</strong>, L. Wang, and X. V. Wang, “<a href="https://doi.org/10.1016/j.procir.2025.02.152" target="_blank" rel="noopener noreferrer">Establishment and Synchronisation of Digital Twins for Multi-robot Systems in Manufacturing</a>.” <em>Procedia CIRP</em>, vol. 134, pp. 419–424, 2025.
-                    </li>
-                    <li data-publication="cao2025sam">
-                        C. Cao, <strong>T. Wang</strong>, M. Li, Y. Huang, J. Jiang, and S. Zhang, “An Efficient Segment Anything Model Adaptation Method for Electrode Overhang Analysis in Lithium-Ion Battery Manufacturing.” <em>ASME Manufacturing Science and Engineering Conference (MSEC)</em>, vol. 89022, p. V002T13A003, 2025. <span class="highlight">Corresponding Author.</span>
-                    </li>
-                    <li data-publication="lu2025refine">
-                        S. Lu, <strong>T. Wang</strong>, C. Cao, M. Li, Y. Huang, and S. Zhang, “<a href="https://doi.org/10.1109/IECON58223.2025.11221602" target="_blank" rel="noopener noreferrer">A Two-Stage Electrode Refinement Method with Denoising Diffusion for Automated Segmentation and Overhang Analysis on Battery X-ray Images</a>.” <em>51st Annual Conference of the IEEE Industrial Electronics Society (IECON)</em>, pp. 1–8, 2025. <span class="highlight">Corresponding Author.</span>
-                    </li>
-                    <li data-publication="qu2024order">
-                        J. Qu, M. Li, and <strong>T. Wang</strong>, “An Order-Free End-to-End Multi-AGV Scheduling Method Based on Safe Deep Q-Network and Asynchronous Coordination.” <em>ASME International Design Engineering Technical Conferences and Computers and Information in Engineering Conference (IDETC-CIE)</em>, vol. 88353, p. V02BT02A023, 2024. <span class="highlight">Corresponding Author.</span>
-                    </li>
-                    <li data-publication="lu2023hacl">
-                        M. Lu, <strong>T. Wang</strong>, H. Zhu, and M. Li, “HACL-Net: Hierarchical Attention and Contrastive Learning Network for MRI-Based Placenta Accreta Spectrum Diagnosis.” <em>International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI)</em>, pp. 304–314, 2023. <span class="highlight">Corresponding Author.</span>
-                    </li>
-                    <li data-publication="wang2020miccai">
-                        <strong>T. Wang</strong>, Y. Wang, and M. Li, “Towards accurate and interpretable surgical skill assessment: A video-based method incorporating recognized surgical gestures and skill levels.” <em>MICCAI</em>, pp. 668–678, 2020.
-                    </li>
-                    <li data-publication="wang2020towards">
-                        <strong>T. Wang</strong>, M. Jin, J. Wang, Y. Wang, and M. Li, “Towards a data-driven method for rgb video-based hand action quality assessment in real time.” <em>Proceedings of the 35th Annual ACM Symposium on Applied Computing (SAC)</em>, pp. 2117–2120, 2020.
-                    </li>
-                </ol>
-                <h3>Books and Chapters</h3>
-                <ol class="publication-items">
-                    <li data-publication="liu2025reliable">
-                        S. Liu, D. Guo, Z. Liu, <strong>T. Wang</strong>, Q. Qin, X. V. Wang, and L. Wang, “<a href="https://doi.org/10.1007/978-3-031-82170-7_12" target="_blank" rel="noopener noreferrer">A Digital Twin-Enabled Approach to Reliable Human–Robot Collaborative Assembly</a>.” <em>Human-Centric Smart Manufacturing Towards Industry 5.0</em>, pp. 281–304, 2025.
-                    </li>
-                </ol>
-                <h3>Preprints and Working Papers</h3>
-                <ol class="publication-items">
-                    <li data-publication="wang2026anatomy">
-                        <strong>T. Wang</strong>, X. V. Wang, L. Wang, M. Li, and Z. Liu, “<a href="https://arxiv.org/abs/2609.12136" target="_blank" rel="noopener noreferrer">The Anatomy and Boundary of Adaptation under Temporal Tabular Shift</a>.” <em>arXiv:2609.12136</em>, 2026. <span class="highlight">Preprint.</span>
-                    </li>
-                    <li data-publication="wang2026snr">
-                        <strong>T. Wang</strong>, M. Li, X. V. Wang, and L. Wang, “<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7478518" target="_blank" rel="noopener noreferrer">SNR-Adaptive Local Posterior Correction for Frozen Tabular Predictors</a>.” <em>SSRN 7478518</em>, 2026. <span class="highlight">Preprint.</span>
-                    </li>
-                    <li data-publication="wang2026ghost">
-                        <strong>T. Wang</strong>, Y. Wang, Z. Liu, X. V. Wang, and L. Wang, “<a href="https://arxiv.org/abs/2606.18315" target="_blank" rel="noopener noreferrer">Ghost Attractor Networks: Basin-Structured Dynamical Decoders for Closed-Loop Sequential Generation</a>.” <em>arXiv:2606.18315</em>, 2026. <span class="highlight">Preprint.</span>
-                    </li>
-                    <li data-publication="liu2026erp">
-                        Z. Liu, <strong>T. Wang</strong>, X. V. Wang, and L. Wang, “<a href="https://arxiv.org/abs/2607.17331" target="_blank" rel="noopener noreferrer">Agentic ERP: Multi-Agent Large Language Model Architecture for Autonomous Enterprise Resource Planning</a>.” <em>arXiv:2607.17331</em>, 2026. <span class="highlight">Preprint.</span>
-                    </li>
-                    <li data-publication="wangamortized">
-                        <strong>T. Wang</strong>, M. Li, X. V. Wang, and L. Wang, “<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6946590" target="_blank" rel="noopener noreferrer">Amortized Posterior Inference over Correction Behaviors for Post-Hoc Tabular Prediction</a>.” <em>SSRN 6946590</em>. <span class="highlight">Preprint; publication date not specified.</span>
-                    </li>
-                </ol>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2 class="section-title">Get in Touch</h2>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <h3>Let's Collaborate</h3>
-                    <p>I'm always interested in discussing new research opportunities, collaborations, and innovative ideas in human-robot collaboration and intelligent manufacturing.</p>
-                    <div class="contact-items">
-                        <div class="contact-item">
-                            <i class="fas fa-envelope"></i>
-                            <div>
-                                <h4>Email</h4>
-                                <p><a href="mailto:tianyuwa@kth.se">tianyuwa@kth.se</a></p>
-                            </div>
-                        </div>
-                        <div class="contact-item">
-                            <i class="fas fa-university"></i>
-                            <div>
-                                <h4>Affiliation</h4>
-                                <p>KTH Royal Institute of Technology<br>Stockholm, Sweden</p>
-                            </div>
-                        </div>
-                        <div class="contact-item">
-                            <i class="fas fa-globe"></i>
-                            <div>
-                                <h4>Location</h4>
-                                <p>Stockholm, Sweden</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="academic-links">
-                        <a href="https://www.linkedin.com/in/tianyu-wang-195a8b189" class="link-button" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-                        <a href="https://scholar.google.com/citations?user=_Cn0QFAAAAAJ" class="link-button" target="_blank"><i class="fab fa-google"></i> Google Scholar</a>
-                        <a href="https://github.com/gunnerwang" class="link-button" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-                        <a href="mailto:tianyuwa@kth.se" class="link-button"><i class="fas fa-envelope"></i> Email</a>
-                    </div>
-                </div>
-                <form class="contact-form" id="contactForm">
-                    <div class="form-group">
-                        <input type="text" id="name" placeholder="Your Name" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" id="email" placeholder="Your Email" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" id="subject" placeholder="Subject" required>
-                    </div>
-                    <div class="form-group">
-                        <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Send Message</button>
-                </form>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2026 Tianyu Wang. All rights reserved.</p>
-        </div>
-    </footer>
-
-    <script src="js/main.js"></script>
+<main id="main" class="container">
+  <section class="hero" id="home" aria-labelledby="hero-name">
+    <div class="hero-copy"><p class="eyebrow">Postdoctoral Researcher · KTH, Stockholm</p>
+      <h1 id="hero-name">Tianyu Wang<span class="name-degree">Ph.D.</span></h1>
+      <p class="hero-focus">Industrial intelligence.<br><em>Human–robot collaboration.</em></p>
+      <p class="hero-intro">I develop AI that helps manufacturing systems adapt, robots act, and people collaborate—through LLM agents, world models, and physical AI.</p>
+      <div class="hero-links"><a class="button" href="#research">Explore my research <span aria-hidden="true">↓</span></a><a class="text-link" href="CV_Tianyu_Wang.pdf">Download CV <span aria-hidden="true">↗</span></a></div>
+      <div class="social-links" aria-label="Professional profiles"><a href="mailto:tianyuwa@kth.se">Email ↗</a><a href="https://scholar.google.com/citations?user=_Cn0QFAAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar ↗</a><a href="https://github.com/gunnerwang" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/tianyu-wang-195a8b189" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a></div>
+    </div>
+    <figure class="portrait"><img src="images/profile.jpg" width="240" height="285" alt="Portrait of Tianyu Wang"><figcaption>Department of Production Engineering<br>KTH Royal Institute of Technology</figcaption></figure>
+  </section>
+  <section class="about-strip" id="about" aria-label="About and research directions"><p>I am a postdoctoral researcher at KTH, working with <strong>Xi Vincent Wang</strong> and <strong>Lihui Wang</strong>. My work connects machine learning with manufacturing systems, with human-centered design as a guiding principle.</p><div class="research-directions"><span>LLM agents &amp; manufacturing</span><span>World models &amp; physical AI</span><span>Adaptive human–robot collaboration</span></div></section>
+  <section class="section" id="research" aria-labelledby="research-title"><div class="section-heading"><div><p class="eyebrow">01 / Selected research</p><h2 id="research-title">From models to manufacturing.</h2></div><p>Representative work across intelligent systems, robot behavior, and human-centered production.</p></div>
+    <div class="research-list"><article class="research-row">
+  <a class="research-visual" href="images/research/layouts.webp" target="_blank" rel="noopener noreferrer" aria-label="View figure: LLM agents for manufacturing system design"><img src="images/research/layouts.webp" alt="Generated manufacturing layouts and shopfloor configurations from the CIRP Annals paper." width="900" height="500" loading="lazy"></a>
+  <div class="research-copy"><p class="eyebrow">01 / Agentic manufacturing</p><h3>LLM agents for manufacturing system design</h3><p>From natural-language production requirements to geometry-feasible manufacturing layouts. Multiple LLM agents work with 3D machine knowledge and human feedback to support rapid reconfiguration.</p><div class="research-meta"><span>CIRP Annals · 2026</span><a href="https://doi.org/10.1016/j.cirp.2026.03.015" target="_blank" rel="noopener noreferrer">Read paper <span aria-hidden="true">↗</span></a></div></div>
+</article><article class="research-row">
+  <a class="research-visual" href="images/research/ghost.webp" target="_blank" rel="noopener noreferrer" aria-label="View figure: Ghost Attractor Networks"><img src="images/research/ghost.webp" alt="Figure from the Ghost Attractor Networks preprint showing stable basins, ghost formation, and mode switching." width="900" height="500" loading="lazy"></a>
+  <div class="research-copy"><p class="eyebrow">02 / Physical AI</p><h3>Ghost Attractor Networks</h3><p>A basin-structured dynamical decoder for multimodal, closed-loop sequential generation. Learned potential–drift dynamics provide a structured latent space for stable behavior and mode switching.</p><div class="research-meta"><span>arXiv preprint · 2026</span><a href="https://arxiv.org/abs/2606.18315" target="_blank" rel="noopener noreferrer">Read preprint <span aria-hidden="true">↗</span></a></div></div>
+</article><article class="research-row">
+  <a class="research-visual" href="images/research/temporal.svg" target="_blank" rel="noopener noreferrer" aria-label="View figure: Learning under temporal shift"><img src="images/research/temporal.svg" alt="Conceptual illustration of short-, medium-, and long-timescale representations routed to a predictor." width="900" height="500" loading="lazy"></a>
+  <div class="research-copy"><p class="eyebrow">03 / Industrial machine learning</p><h3>Learning under temporal shift</h3><p>Multi-timescale representations and adaptive routing for industrial tabular data. This work addresses changing operating conditions and temporal drift in deployed predictive models.</p><div class="research-meta"><span>Neural Networks · 2026</span><a href="https://doi.org/10.1016/j.neunet.2026.108670" target="_blank" rel="noopener noreferrer">Read paper <span aria-hidden="true">↗</span></a></div></div>
+</article><article class="research-row">
+  <a class="research-visual" href="images/research/twin.svg" target="_blank" rel="noopener noreferrer" aria-label="View figure: Human-centric digital twins"><img src="images/research/twin.svg" alt="Conceptual illustration linking a person and robot in a physical work cell with a digital twin." width="900" height="500" loading="lazy"></a>
+  <div class="research-copy"><p class="eyebrow">04 / Human–robot collaboration</p><h3>Human-centric digital twins</h3><p>A framework for high-fidelity digital twins of collaborative work cells, combining human reconstruction, motion tracking, and procedure recognition to connect people, robots, and their shared workspace.</p><div class="research-meta"><span>Journal of Manufacturing Systems · 2025</span><a href="https://doi.org/10.1016/j.jmsy.2025.02.018" target="_blank" rel="noopener noreferrer">Read paper <span aria-hidden="true">↗</span></a></div></div>
+</article></div>
+  </section>
+  <section class="section" id="publications" aria-labelledby="publications-title"><div class="section-heading"><div><p class="eyebrow">02 / Selected publications</p><h2 id="publications-title">A few recent contributions.</h2></div><a class="text-link" href="publications.html">All 38 publications <span aria-hidden="true">↗</span></a></div>
+    <ol class="selected-publications"><li class="selected-publication" data-publication="wang2026cirp"><span class="publication-year">2026</span><div><strong>T. Wang</strong>, Z. Liu, X. V. Wang, and L. Wang, “<a href="https://doi.org/10.1016/j.cirp.2026.03.015" target="_blank" rel="noopener noreferrer">LLM agents-driven layout generation for reconfigurable manufacturing systems</a>.” <em>CIRP Annals - Manufacturing Technology</em>, vol. 75, no. 1, pp. 577–581, 2026.</div></li><li class="selected-publication" data-publication="wang2026tabular"><span class="publication-year">2026</span><div><strong>T. Wang</strong>, M. Zhang, M. Lu, and M. Li, “<a href="https://doi.org/10.1016/j.neunet.2026.108670" target="_blank" rel="noopener noreferrer">Multi-timescale representation with adaptive routing for deep tabular learning under temporal shift</a>.” <em>Neural Networks</em>, vol. 199, article 108670, 2026.</div></li><li class="selected-publication" data-publication="wang2026soft"><span class="publication-year">2026</span><div><strong>T. Wang</strong>, M. Zhang, J. Qu, Z. Liu, M. Li, and X. V. Wang, “<a href="https://doi.org/10.1016/j.engappai.2026.115061" target="_blank" rel="noopener noreferrer">Multimodal knowledge-enhanced language model with online test-time adaptation for cross-domain industrial tabular prediction</a>.” <em>Engineering Applications of Artificial Intelligence (EAAI)</em>, vol. 178, article 115061, 2026.</div></li><li class="selected-publication" data-publication="wang2025jms"><span class="publication-year">2025</span><div><strong>T. Wang</strong>, Z. Liu, L. Wang, M. Li, and X. V. Wang, “A Design Framework for High-Fidelity Human-Centric Digital Twin of Collaborative Work Cell in Industry 5.0.” <em>Journal of Manufacturing Systems (JMS)</em>, vol. 80, pp. 140–156, 2025.</div></li><li class="selected-publication" data-publication="wang2024data"><span class="publication-year">2024</span><div><strong>T. Wang</strong>, Z. Liu, L. Wang, M. Li, and X. V. Wang, “Data-efficient multimodal human action recognition for proactive human–robot collaborative assembly: A cross-domain few-shot learning approach.” <em>Robotics and Computer-Integrated Manufacturing (RCIM)</em>, vol. 89, article 102785, 2024.</div></li><li class="selected-publication" data-publication="wang2026ghost"><span class="publication-year">2026</span><div><strong>T. Wang</strong>, Y. Wang, Z. Liu, X. V. Wang, and L. Wang, “<a href="https://arxiv.org/abs/2606.18315" target="_blank" rel="noopener noreferrer">Ghost Attractor Networks: Basin-Structured Dynamical Decoders for Closed-Loop Sequential Generation</a>.” <em>arXiv:2606.18315</em>, 2026. <span class="highlight">Preprint.</span></div></li></ol>
+    <p class="section-note">The complete archive includes journal articles, conference papers, a book chapter, and separately identified preprints.</p>
+  </section>
+  <section class="section background-section" id="experience" aria-labelledby="background-title"><div class="section-heading"><div><p class="eyebrow">03 / Background</p><h2 id="background-title">Research &amp; education.</h2></div><a class="text-link" href="CV_Tianyu_Wang.pdf">Full curriculum vitae ↗</a></div>
+    <div class="background-grid"><div><h3 class="small-heading">Appointments</h3><div class="timeline-row"><span>2025.11—Present</span><div><h4>Postdoctoral Researcher</h4><p>KTH Royal Institute of Technology</p><p class="muted">AI-empowered manufacturing and human–robot collaboration</p></div></div><div class="timeline-row"><span>2023.02—2024.02</span><div><h4>Visiting Scholar / Researcher</h4><p>KTH Royal Institute of Technology</p><p class="muted">Human–robot collaboration towards Industry 5.0</p></div></div><div class="timeline-row"><span>2020.09—2025.10</span><div><h4>Researcher</h4><p>Shanghai Jiao Tong University</p><p class="muted">Intelligent manufacturing in Industry 4.0</p></div></div></div>
+    <div><h3 class="small-heading">Education</h3><div class="timeline-row"><span>2020—2025</span><div><h4>Ph.D., Control Science and Engineering</h4><p>Shanghai Jiao Tong University</p><p class="muted">Zhi Yuan Honorary Ph.D. Program</p></div></div><div class="timeline-row"><span>2016—2020</span><div><h4>Bachelor, Electrical and Computer Engineering</h4><p>Shanghai Jiao Tong University</p><p class="muted">University of Michigan–SJTU Joint Institute</p></div></div></div></div>
+  </section>
+  <section class="contact-section" id="contact" aria-labelledby="contact-title"><div><p class="eyebrow">04 / Get in touch</p><h2 id="contact-title">Let's connect research<br>with real-world problems.</h2><p>I welcome conversations about industrial AI, adaptive robotics, and human–robot collaboration.</p></div><div class="contact-details"><a class="email-link" href="mailto:tianyuwa@kth.se">tianyuwa@kth.se <span aria-hidden="true">↗</span></a><p>KTH Royal Institute of Technology<br>Stockholm, Sweden</p></div></section>
+</main>
+<footer class="site-footer"><div class="container footer-inner"><p>© 2026 Tianyu Wang</p><p>KTH Royal Institute of Technology · Stockholm, Sweden</p><a href="#main">Back to top ↑</a></div></footer>
 </body>
 </html>

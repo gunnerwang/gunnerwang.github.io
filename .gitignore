@@ -13,3 +13,5 @@ Thumbs.db
 *.swp
 *.swo
 *~
+# Local browser review artifacts
+/output/
