@@ -122,6 +122,7 @@ body {
 
 .hero-buttons {
     display: flex;
+    flex-wrap: wrap;
     gap: 1rem;
     margin-bottom: 2rem;
 }
@@ -351,6 +352,11 @@ body {
     padding: 0;
 }
 
+.experience-content > p {
+    margin-bottom: 1rem;
+    color: var(--text-light);
+}
+
 .experience-content li {
     position: relative;
     padding-left: 1.5rem;
@@ -408,7 +414,8 @@ body {
 .research-date {
     font-size: 0.875rem;
     color: var(--text-light);
-    white-space: nowrap;
+    max-width: 12rem;
+    text-align: right;
 }
 
 .research-card p {
@@ -438,7 +445,7 @@ body {
 
 .publication-stats {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 2rem;
     margin-bottom: 3rem;
 }
@@ -460,6 +467,21 @@ body {
     font-size: 1.25rem;
     margin-bottom: 1.5rem;
     color: var(--primary-color);
+}
+
+.publication-note {
+    margin-bottom: 2rem;
+    color: var(--text-light);
+}
+
+.publication-items a,
+.publication-note a {
+    color: var(--primary-color);
+    overflow-wrap: anywhere;
+}
+
+.publication-items + h3 {
+    margin-top: 2.5rem;
 }
 
 .publication-items {
@@ -654,6 +676,15 @@ body {
 
     .research-grid {
         grid-template-columns: 1fr;
+    }
+
+    .research-header {
+        flex-direction: column;
+    }
+
+    .research-date {
+        max-width: none;
+        text-align: left;
     }
 
     .publication-stats {
